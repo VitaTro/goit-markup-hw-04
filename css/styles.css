@@ -1,0 +1,221 @@
+:root {
+  --slate-color:var(--SLATE, #434455);
+  --iris-color: var(--IRIS, #4D5AE5);
+  --white-color:var(--WHITE, #FFF);
+    --navy-blue-color:var(--NAVY-BLUE, #2E2F42);
+    --cloud-color: var(--CLOUD, #F4F4FD);
+    --moderate-blue-color:var(--MODERATE-BLUE, #404BBF); 
+} 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.title {
+    color: var(--navy-blue-color);
+    font-weight: 500;
+    font-style: normal;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.text {
+    font-weight: 400;
+    color: var(--slate-color);
+    font-style: normal;
+}
+.text-footer {
+    color: var(--cloud-color);
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+}
+.head-title {
+    color: var(--navy-blue-color);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.web-studio {
+    color: var(--iris-color);
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 0.03em;
+line-height: 1.17;
+}
+
+.studio {
+    color: var(--navy-blue-color);
+}
+.footer-studio {
+    color: var(--cloud-color);
+}
+.footer {
+    background: var(--navy-blue-color);
+
+}
+.item {
+background-color: var(--navy-blue-color);
+}
+.button {
+background-color: var(--iris-color);
+color: var(--white-color);
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5rem;
+letter-spacing: 0.04rem;
+cursor: pointer;
+}
+.button:hover {
+    background-color: var(--moderate-blue-color);
+}
+.button:focus {
+    background-color: var(--moderate-blue-color);
+}
+.headline-main {
+    color: var(--white-color);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.portfolio-button {
+    background: var(--cloud-color);
+    color:var(--iris-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em; 
+}
+.button-type {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em; 
+    background: var(--cloud-color);
+    color:var(--iris-color);
+    cursor: pointer;
+}
+.button-type:hover {
+    color: var(--white-color);
+}
+.button-type:focus {
+    color: var(--white-color);
+}
+
+
+.portfolio-button-all {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris-color);
+    background-color:var(--cloud-color);
+}
+.portfolio-button-all:hover {
+    background-color:var(--moderate-blue-color);
+}
+.portfolio-button-all:focus {
+    background-color:var(--moderate-blue-color);
+    cursor: pointer;
+}
+.portfolio-button:hover {
+    background: var(--iris-color);
+    color: var(--white-color);
+    }
+.portfolio-button:focus {
+background: var(--iris-color);
+color: var(--white-color);
+}
+.contact {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--slate-color);
+    font-weight: 400;
+}
+
+.contact:hover {
+    color:var(--moderate-blue-color);
+}
+.contact:focus {
+    color:var(--moderate-blue-color);
+}
+
+.header-nav {
+    color:var(--navy-blue-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-nav:hover {
+    color:var(--moderate-blue-color);
+}
+.header-nav:focus {
+    color:var(--moderate-blue-color);
+}
+.menu:hover {
+color:var(--moderate-blue-color);
+}
+.strategy-header {
+    font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.strategy-text { 
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.your-team {
+    background-color:var(--white-color);
+}
+.portfolio-list {
+    list-style: none;
+}
+.app-phone-header {
+    color:var(--navy-blue-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.app-phone-text {
+    color:var(--slate-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address {
+    font-style: normal;
+}
+.head-team {
+    background-color: var(--cloud-color);
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.wrapper {
+    display: inline;
+    align-items: flex-start;
+gap: 2.5em;
+} 
