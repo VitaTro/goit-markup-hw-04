@@ -19,7 +19,8 @@ img {
       --green-color:var(--GREEN, #31D0AA);
       --light-slate-color:var(--LIGHT-SLATE, #8E8F99);
       --dairy-color:var(--DAIRY,#FCFCFC);
-  } 
+  --grey-color:var(--GREY, #2E2F42B2*70%);
+    } 
   h1,
   h2,
   h3,
@@ -63,8 +64,8 @@ img {
     height: 37.5rem;
     flex-shrink: 0;
     margin:0 auto;
-            background-image: var(--GREY, rgba(46, 47, 66, 0.70)),
-            url(/images/people-office.jpg);
+            background-image: var(--grey-color, rgba(46, 47, 66, 0.70)),var(--grey-color, rgba(46, 47, 66, 0.70)), 
+            url(../images/people-office.jpg);
             background-repeat: no-repeat;
 }
   .button {
