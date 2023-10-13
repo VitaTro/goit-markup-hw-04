@@ -110,23 +110,32 @@ img {
       border: 1px solid transparent;
   }
   .clients {
-    display: inline-flex;
-align-items: flex-start;
-gap: 1.5rem;
+    display:flex;
+gap: 24px;
   }
     .clients-customers {
-        display: list-item;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-shrink: 0;
-        width: 10.5rem;
-        height: 5.5rem;
-        border-radius: 0.25rem;
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
         border: 1px solid var(--light-slate-color);
+        color: var(--light-slate-color);
+    }
+    .clients-customers:hover {
+        color:var(--moderate-blue-color) ;
+        border-color:var(--moderate-blue-color) ;
+    }
+    .clients-customers:focus {
+        color:var(--moderate-blue-color) ;
+        border-color:var(--moderate-blue-color) ;
     }
     .clients-customers-list {
-height: 3.5rem;
-flex-shrink: 0;
-     
-     }   
+width: calc((100% - 120px) / 6);
+height: 88px;
+    }  
     
   .container {
     margin: 0 auto;
@@ -169,12 +178,11 @@ flex-shrink: 0;
         display: flex;
         align-items: center;
     }
-    .container-section-second-ikons {
-        display: flex;
+   
+    .container-svg {
+        display: flex; 
         align-items: center;
         justify-content: center;
-    }
-    .container-svg {
         border-radius: 0.25rem;
         background: var(--cloud-color);
         width: 16.5rem;
@@ -182,7 +190,6 @@ flex-shrink: 0;
         flex-shrink: 0;
         padding: 1.5em 6.25em;
         margin-bottom: 0.5em;
-        
     }
     .contact {
         font-style: normal;
@@ -208,6 +215,9 @@ flex-shrink: 0;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
+    }
+    .head-title-section {
         margin-bottom: 72px;
     }
     .head-team {
@@ -500,8 +510,9 @@ margin-bottom: 16px;
     justify-content: center;
     width: 100%;
     height: 100%;
-    fill: var(--iris-color);
+    fill: var(--cloud-color);
     border-radius: 50%;
+    background-color:var(--iris-color);
    }
    .svg-icon-links-team:hover {
 background-color: var(--moderate-blue-color);
