@@ -421,10 +421,21 @@ align-items: center;
 gap: 1.5rem;
 flex-shrink: 0;
     }
+    .social-section-footer {
+        fill:var(--iris-color);
+        width: 16;
+        height: 16; 
+    }
+    .social-section-footer:hover {
+        fill: var(--green-color);
+    }
     .social-section-team  {
        fill:var(--iris-color);
        width: 16;
        height: 16;
+    }
+    .social-section-team:hover {
+        fill:var(--cornflower-color);
     }
     .strategy-header {
         font-size: 20px;
