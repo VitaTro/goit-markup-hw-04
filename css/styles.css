@@ -471,6 +471,7 @@ lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
         line-height: 1.5;
         letter-spacing: 0.02em;
 margin-bottom: 16px;
+margin-top: 0;
     }
     .social-page-footer-list {
         display:flex;
@@ -562,6 +563,7 @@ background-color: var(--moderate-blue-color);
         letter-spacing: 0.02rem;
         width: 16.5rem;
         height: 4.5rem;
+        margin:0;
     }
     .title {
         color: var(--navy-blue-color);
