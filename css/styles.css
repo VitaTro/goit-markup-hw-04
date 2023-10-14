@@ -64,7 +64,9 @@ img {
     height: 37.5rem;
     flex-shrink: 0;
     margin:0 auto;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)), 
+            url(../images/people-office.jpg);
             background-repeat: no-repeat;
             max-width: 1440px; 
             background-position: center;
@@ -136,7 +138,9 @@ gap: 24px;
 width: calc((100% - 120px) / 6);
 height: 88px;
     }  
-    
+    .clients-customers-svg {
+        fill: currentColor;
+    }
   .container {
     margin: 0 auto;
     padding: 0 15px;
@@ -217,9 +221,7 @@ flex-shrink: 0;
         text-transform: capitalize;
         margin-bottom: 72px;
     }
-    .head-title-section {
-        margin-bottom: 72px;
-    }
+   
     .head-team {
         background-color: var(--cloud-color);
     }
@@ -264,6 +266,11 @@ flex-shrink: 0;
 }
 .footer-studio {
     color: var(--cloud-color);
+}
+
+
+.general-container-footer {
+    display: flex;
 }
 
 .icons {
@@ -321,9 +328,7 @@ flex-shrink: 0;
         align-items: baseline;
         margin-right: 120px;
     }
-    .page-footer-container-icons {
-
-    }
+   
     .portfolio-button:hover {
         background: var(--iris-color);
         color: var(--white-color);
@@ -443,16 +448,15 @@ lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        display: flex;
-        justify-content: center;
-align-items: center;
-gap: 1.5rem;
-flex-shrink: 0;
 margin-bottom: 16px;
+justify-content: center;
+display: flex;
+text-align: center;
     }
     .social-page-footer-list {
         display:flex;
         gap:16px;
+        justify-content: center;
     }
     .social-section-footer {
         fill:var(--iris-color);
@@ -460,7 +464,7 @@ margin-bottom: 16px;
         height: 16; 
     }
     .social-section-team  {
-       fill:var(--iris-color);
+       fill:var(--cloud-color);
       
     }
     .social-section-team:hover {
@@ -521,6 +525,9 @@ background-color: var(--moderate-blue-color);
     background-color: var(--moderate-blue-color);
    }    
    .svg-icon-links:hover {
+        background-color: var(--green-color);
+    }
+    .svg-icon-links:focus {
         background-color: var(--green-color);
     }
 
