@@ -24,8 +24,7 @@ img {
   h1,
   h2,
   h3,
-  h4,
-  {
+  h4 {
     margin: 0;
   }
   button {
@@ -114,7 +113,7 @@ img {
   .clients {
     display:flex;
 gap: 24px;
-padding:0 auto;
+
   }
     .clients-customers {
         display: flex;
@@ -264,7 +263,7 @@ flex-shrink: 0;
 
 .footer {
     background: var(--navy-blue-color);
-height: 19.5rem;
+
 flex-shrink: 0;
 }
 .footer-studio {
@@ -324,19 +323,10 @@ color: var(--white-color);
     justify-content: space-between;
 flex-shrink: 0;
     }
-    .page-footer {
-        flex-direction: column;
+    .page-footer {  
         padding: 100px 0;
-        display: flex;
     }
-    .page-footer-container {
-        display:block;
-        align-items: center;
-        margin-right: 120px;
-        justify-content:center;
-    
-    }
-   
+  
     .portfolio-button:hover {
         background: var(--iris-color);
         color: var(--white-color);
@@ -408,8 +398,7 @@ flex-shrink: 0;
 
     .section {
         padding: 120px 0; 
-         display: flex;
-     margin: 0 auto;
+        
      }
      .section-first {
         padding: 188px 0;
@@ -438,6 +427,7 @@ flex-shrink: 0;
     }
     .section-four-text {
         text-align: center;
+       margin: 0 auto;
     }
     .section-next {
         padding: 7.5em 9.75em;
